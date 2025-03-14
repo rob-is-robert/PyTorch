@@ -1,0 +1,25 @@
+Mac如何在vs code使用PyTorch
+
+1. 新建一个conda虚拟环境
+
+（1）打开终端：
+conda create -n pytorch
+这里pytorch是这个环境的名字
+
+（2）安装python
+conda install python==版本号
+
+（3）进入环境
+conda activate pytorch
+(conda deactivate退出环境)
+
+2. 在vs code中配置环境
+
+（1）选择解释器
+快捷键control+shift+P
+然后输入Python: Select Interpreter
+接着选择刚才创建的conda环境
+
+（2）安装PyTorch(CPU版本)
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
