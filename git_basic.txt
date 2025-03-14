@@ -1,0 +1,8 @@
+1. 后续更新代码后，运行以下命令更新仓库：
+
+git add .
+git commit -m "Update code"
+git push
+
+2. 获取远程更改：
+git pull origin main
